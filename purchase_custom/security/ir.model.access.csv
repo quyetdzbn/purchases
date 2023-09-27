@@ -1,0 +1,8 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_user_1,purchase_custom.purchase,model_order_limit_configuration,base.group_user,1,1,1,1
+access_user_2,purchase_custom.purchase,model_limit_order_staff,base.group_user,1,1,1,1
+access_user_3,purchase_custom.purchase,model_report_to_accountant,base.group_user,1,1,1,1
+access_user_4,purchase_custom.purchase,model_order_limit_configuration,base.group_user,1,1,1,1
+access_wizard,purchase_custom.purchase_custom,model_report_to_accountant,base.group_user,1,1,1,1
+access_purchasing_staff,purchase_custom.staff,model_purchase_order,group_purchasing_staff,1,1,1,1
+access_accountant,purchase_custom.accountant,model_purchase_order,group_accountant,1,1,1,1
